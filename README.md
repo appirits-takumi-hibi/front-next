@@ -1,3 +1,44 @@
+# front-next
+
+## 環境構築
+
+環境
+`Mac M2`
+`Docker version 24.0.6, build ed223bc`
+`Docker Compose version v2.21.0-desktop.1`
+
+インストールされるversion
+`node v20.10.0`, `npm 10.2.3`, `npx 10.2.3`
+
+### ビルド・起動・停止
+
+``` sh
+make build
+make up
+make stop
+```
+
+## plugin
+
+## ディレクトリ構成
+
+- /app
+  - /assets
+  - /components
+  - /layouts
+  - /pages
+    - /xxx
+    - /yyy
+
+## next3 && GraphQL
+
+[参照サイト](https://zenn.dev/kei178/articles/8c6ad6fd91c9de#1.-apollo-client-%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97)
+[2](https://zenn.dev/waddy/books/graphql-nestjs-nextjs-bootcamp/viewer/overview_from_frontend)
+
+----------------------------
+
+## default Message
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
